@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+    /* height: 100%; */
+  height: 100vh;
+   /* background-color: #eaafc8; */
+  background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+
+   text-align: center;
+   overflow-x: hidden;
+   padding-top: 10%;
+  }
+  #height,
+  #weight {
+    width: 210px;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 2px solid royalblue;
+    padding-left: 100px;
+  } 
+  label{
+    margin-left: -90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: gold;
+    color: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);;
+  }
+   #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: antiquewhite;
+    /* padding: 1px 30px; */
+    border-radius: 8px;
+    /* color: #212121; */
+    color: #03001e;
+    text-decoration: none;
+    border: 2px solid #212121;
+    margin-left: -2px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+  }
+.Main{
+     color: greenyellow;
+    text-align: center;
+    font-family: 'Mulish', sans-serif; 
+}
+.MainS{
+   font-family: 'Lucida Sans Unicode',Verdana, sans-serif;
+   margin-left: -80px;
+   padding-top: 20px;
+   font-size: larger;
+   color: limegreen;
+   font-family: 'Mulish', sans-serif;
+}
